@@ -1,0 +1,92 @@
+:root {
+  --hero-color: #ffffff;
+  --main-color: #d8d8d8;
+  --color-text: #121212;
+  --rgba: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%);
+--color-text-review : #484848;
+
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.container {
+  max-width: 100%;
+  min-width: 375px;
+}
+
+.hero {
+  background: var(--hero-color);
+  padding: 64px 20px;
+  object-fit: contain;
+}
+
+.hero-content {
+  justify-content: center;
+  text-align: center;
+}
+
+.pic1 {
+  width: 335px;
+  height: 442px;
+}
+
+.pic2 {
+  margin-top: 20px;
+  display: block;
+  width: 282px;
+  height: 153px;
+}
+
+.hero-text {
+  margin-top: 32px;
+}
+
+.hero-text-review {
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 1.28;
+text-transform: uppercase;
+color: #484848;
+color: var(--color-text-review);
+}
+
+
+.hero-paragraf {
+  margin-top: 18px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
+.second-hero-paragraf {
+  margin-top: 14px;
+}
+
+.pic3 {
+  margin-top: 64px;
+  width: 335px;
+  height: 311px;
+}
+
+
+
+
+
+.pic4 {
+  margin-top: 40px;
+  width: 335px;
+  height: 309px;
+}
