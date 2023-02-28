@@ -3,7 +3,8 @@
   --main-color: #d8d8d8;
   --color-text: #121212;
   --rgba: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%);
---color-text-review : #484848;
+--color-text-p: #484848;
+--color-text-review: #f7f7f7;
 
 }
 
@@ -39,6 +40,49 @@ img {
   height: 442px;
 }
 
+.review-card {
+  /* z-index: 2; */
+  position: absolute;
+  background: var(--color-text);
+  width: 212px;
+  height: 61px;
+  box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+border-radius: 6px;
+display: flex;
+}
+
+.maria-logo {
+}
+
+.img-review {
+  width: 41px;
+  height: 41px;
+  margin: 10px 12px 10px 14px;
+}
+
+.p-maria {
+  font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #F7F7F7;
+}
+
+.give-rating {
+  color: #575757;
+}
+
+.rating {
+  color: var(--color-text-review);
+  margin-left: 3px;
+}
+
+.give-star {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+}
+
 .pic2 {
   margin-top: 20px;
   display: block;
@@ -50,14 +94,14 @@ img {
   margin-top: 32px;
 }
 
-.hero-text-review {
+.hero-text-p {
 font-weight: 400;
 font-size: 12px;
 line-height: 14px;
 letter-spacing: 1.28;
 text-transform: uppercase;
 color: #484848;
-color: var(--color-text-review);
+color: var(--color-text-p);
 }
 
 
